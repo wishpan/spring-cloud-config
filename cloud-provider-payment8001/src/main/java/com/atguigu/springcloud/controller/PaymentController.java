@@ -1,4 +1,4 @@
-package com.atguigu.springcloud;
+package com.atguigu.springcloud.controller;
 
 
 import com.atguigu.springcloud.entities.CommonResult;
@@ -75,4 +75,15 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+    /**
+     * 链路跟踪
+     *
+     * @return
+     */
+    @GetMapping(value = "/payment/zipkin")
+    public String paymentZipkin() {
+        return "hi,I'm paymentZipkin server fall back,welcome to atguigu,O(∩_∩)O哈哈~";
+    }
+
 }

@@ -53,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.152207" />
@@ -74,11 +74,11 @@
       <recent name="springcloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu" />
+      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java" />
+      <recent name="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud" />
-      <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java" />
-      <recent name="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -88,16 +88,47 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8001">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.StreamMQMain8803">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-center-3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,27 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway9527" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GatewayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-hystrix-dashboard9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.HystrixDashboardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,14 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-feign-hystrix-order80" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderHystrixMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,14 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,14 +210,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8002" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,13 +231,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguihu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguihu.springcloud.StreamMQMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayMain9527" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
-        <item itemvalue="Spring Boot.OrderHystrixMain80" />
+        <item itemvalue="Spring Boot.StreamMQMain8803" />
+        <item itemvalue="Spring Boot.StreamMQMain8802" />
+        <item itemvalue="Spring Boot.StreamMQMain8801" />
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +303,10 @@
       <workItem from="1616374404210" duration="11040000" />
       <workItem from="1616461269962" duration="25242000" />
       <workItem from="1616651948711" duration="7077000" />
-      <workItem from="1616721727791" duration="15571000" />
+      <workItem from="1616721727791" duration="21974000" />
+      <workItem from="1617066648170" duration="13751000" />
+      <workItem from="1617094374928" duration="2376000" />
+      <workItem from="1617152555411" duration="8494000" />
     </task>
     <task id="LOCAL-00001" summary="first提交">
       <created>1616981820440</created>
@@ -310,10 +353,10 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="607" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1025@0.25.1792.1025" timestamp="1616032030746" />
-    <state x="712" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1616740897284">
+    <state x="712" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1617088004065">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state x="712" y="248" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1025@0.25.1792.1025" timestamp="1616740897284" />
+    <state x="712" y="248" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1025@0.25.1792.1025" timestamp="1617088004065" />
     <state x="587" y="277" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615518158301">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
@@ -330,38 +373,38 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="316" y="110" key="CommitChangelistDialog2/0.25.1792.1025@0.25.1792.1025" timestamp="1616987139894" />
-    <state width="1334" height="352" key="GridCell.Tab.0.bottom" timestamp="1616980959541">
+    <state width="1334" height="310" key="GridCell.Tab.0.bottom" timestamp="1617182873391">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.0.bottom/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959540" />
-    <state width="1334" height="352" key="GridCell.Tab.0.center" timestamp="1616980959540">
+    <state width="1334" height="310" key="GridCell.Tab.0.bottom/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873391" />
+    <state width="1334" height="310" key="GridCell.Tab.0.center" timestamp="1617182873391">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.0.center/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959540" />
-    <state width="1334" height="352" key="GridCell.Tab.0.left" timestamp="1616980959539">
+    <state width="1334" height="310" key="GridCell.Tab.0.center/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873391" />
+    <state width="1334" height="310" key="GridCell.Tab.0.left" timestamp="1617182873391">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.0.left/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959539" />
-    <state width="1334" height="352" key="GridCell.Tab.0.right" timestamp="1616980959540">
+    <state width="1334" height="310" key="GridCell.Tab.0.left/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873391" />
+    <state width="1334" height="310" key="GridCell.Tab.0.right" timestamp="1617182873391">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.0.right/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959540" />
-    <state width="1334" height="352" key="GridCell.Tab.1.bottom" timestamp="1616980959542">
+    <state width="1334" height="310" key="GridCell.Tab.0.right/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873391" />
+    <state width="1334" height="310" key="GridCell.Tab.1.bottom" timestamp="1617182873392">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.1.bottom/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959542" />
-    <state width="1334" height="352" key="GridCell.Tab.1.center" timestamp="1616980959541">
+    <state width="1334" height="310" key="GridCell.Tab.1.bottom/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873392" />
+    <state width="1334" height="310" key="GridCell.Tab.1.center" timestamp="1617182873392">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.1.center/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959541" />
-    <state width="1334" height="352" key="GridCell.Tab.1.left" timestamp="1616980959541">
+    <state width="1334" height="310" key="GridCell.Tab.1.center/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873392" />
+    <state width="1334" height="310" key="GridCell.Tab.1.left" timestamp="1617182873392">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.1.left/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959541" />
-    <state width="1334" height="352" key="GridCell.Tab.1.right" timestamp="1616980959541">
+    <state width="1334" height="310" key="GridCell.Tab.1.left/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873392" />
+    <state width="1334" height="310" key="GridCell.Tab.1.right" timestamp="1617182873392">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state width="1334" height="352" key="GridCell.Tab.1.right/0.25.1792.1025@0.25.1792.1025" timestamp="1616980959541" />
+    <state width="1334" height="310" key="GridCell.Tab.1.right/0.25.1792.1025@0.25.1792.1025" timestamp="1617182873392" />
     <state width="1199" height="324" key="GridCell.Tab.2.bottom" timestamp="1615799101501">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
@@ -386,10 +429,10 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="484" y="182" width="932" height="548" key="Registry/0.25.1792.1025@0.25.1792.1025" timestamp="1615535936445" />
-    <state x="387" y="116" key="SettingsEditor" timestamp="1616987589542">
+    <state x="387" y="116" key="SettingsEditor" timestamp="1617006351476">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state x="387" y="116" key="SettingsEditor/0.25.1792.1025@0.25.1792.1025" timestamp="1616987589542" />
+    <state x="387" y="116" key="SettingsEditor/0.25.1792.1025@0.25.1792.1025" timestamp="1617006351476" />
     <state x="495" y="274" key="Vcs.Push.Dialog.v2" timestamp="1616987327126">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
@@ -398,14 +441,14 @@
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
     <state x="697" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1792.1025@0.25.1792.1025" timestamp="1616983876077" />
-    <state x="601" y="292" width="761" height="490" key="find.popup" timestamp="1616742832464">
+    <state x="601" y="292" width="761" height="518" key="find.popup" timestamp="1617009951578">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state x="601" y="292" width="761" height="490" key="find.popup/0.25.1792.1025@0.25.1792.1025" timestamp="1616742832464" />
-    <state x="511" y="196" key="new project wizard" timestamp="1616745915617">
+    <state x="601" y="292" width="761" height="518" key="find.popup/0.25.1792.1025@0.25.1792.1025" timestamp="1617009951578" />
+    <state x="511" y="196" key="new project wizard" timestamp="1617155366039">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
-    <state x="511" y="196" key="new project wizard/0.25.1792.1025@0.25.1792.1025" timestamp="1616745915617" />
+    <state x="511" y="196" key="new project wizard/0.25.1792.1025@0.25.1792.1025" timestamp="1617155366039" />
     <state x="564" y="247" width="670" height="675" key="run.anything.popup" timestamp="1615529275189">
       <screen x="0" y="25" width="1792" height="1025" />
     </state>
